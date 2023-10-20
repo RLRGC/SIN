@@ -6,18 +6,43 @@
     <title>SIN | Activités</title>
     <link rel="stylesheet" type="text/css" href ="SIN.css">
     <link rel="stylesheet" type="text/css" href ="style_entete.css">
+    <style>
+        /* Met ça dans une feuille de style STV */
+        .Python{
+            display:flex;
+            flex-wrap:wrap;
+        }
+        .Python li{
+            background-color:silver;
+            border-radius:50%;
+            transition:0.3s
+        }
+        .Python li a, .Python li a:visited{
+            color:black;
+        }
+        .Python li:hover{
+            border:1px solid black;
+            transform: scale(1.1);
+        }
+        .Python .R{
+            border:1px solid darkred;
+        }
+        .Python .G{
+            border:1px solid darkblue;
+        }
+    </style>
 </head>
 
 <body>
   <a href="https://rlrgc.github.io/SIN/PageWeb/SIN_TP.html" > Liens </a> 
 
-<ul>
-    <li><a download href="Calculatrice.py">Calculatrice.py</a></li>
-    <li><a download href="Casino_Gael.py">Casino_Gael.py</a></li>
-    <li><a download href="Casino_Ronan.py">Casino_Ronan.py</a></li>
-    <li><a download href="Juste_Prix.py">Juste_Prix.py</a></li>
-    <li><a download href="ModuleEquation.py">ModuleEquation.py</a></li>
-    <li><a download href="casino.py">casino.py</a></li>
-    <li><a download href="entrainement2-biblio.py">entrainement2-biblio.py</a></li>
+<ul class="Python">
+    <li><a class="R" download href="Calculatrice.py">Calculatrice.py</a></li>
+    <li><a class="G" download href="Casino_Gael.py">Casino_Gael.py</a></li>
+    <li><a class="R" download href="Casino_Ronan.py">Casino_Ronan.py</a></li>
+    <li><a class="R" download href="Juste_Prix.py">Juste_Prix.py</a></li>
+    <li><a class="G" download href="ModuleEquation.py">ModuleEquation.py</a></li>
+    <li><a class="R" download href="casino.py">casino.py</a></li>
+    <li><a class="R" download href="entrainement2-biblio.py">entrainement2-biblio.py</a></li>
 </ul>
 </body>
