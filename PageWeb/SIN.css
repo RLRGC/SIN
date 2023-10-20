@@ -1,0 +1,12 @@
+body {
+
+    background-color : rgba(0,0,0,0.8)
+}
+
+nav{
+    background-color :rgba(120, 120, 120, 1);
+    text-align: center;
+}
+nav a {
+    margin-right: 35px;
+}

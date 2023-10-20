@@ -1,0 +1,23 @@
+header{
+    background-image: linear-gradient(
+rgba(100,100,100,1)	,
+rgba(120, 120, 120, 1))	, url("");
+padding: 15px;
+text-align: center;
+font-size: 20px;
+top:0;
+position: sticky;
+}
+header a{
+color:aqua;
+margin: 0 40px;
+padding: 10px;
+border-radius: 30px;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header a.BoutonBleu:hover{
+color:rgb(48, 48, 48);
+background-color: aqua;
+}
